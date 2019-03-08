@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-
+import Quiz from './Quiz.js'
 
 
 class QuizQuestion extends Component {
