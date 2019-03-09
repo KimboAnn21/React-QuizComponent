@@ -10,4 +10,9 @@ class App extends Component {
   }
 }
 
+ReactDOM.render(
+  element,
+  document.getElementById('root')
+);
+
 export default App
