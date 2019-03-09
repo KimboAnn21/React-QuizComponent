@@ -1,21 +1,20 @@
 import React, {Component} from 'react'
-import Quiz from './Quiz'
-import App from './App'
 
 class QuizQuestion extends Component {
     render () {
         return (
             <main>
                 <section>
-                    <p></p>
+                    <p>{this.props.quiz_questions.instruction_text}</p>
                 </section>
                     <section className="buttons">
                         <ul>
+                            <li>{this.props.quiz_questions.answer.options[0]}</li>
                         </ul>
                     </section> 
             </main>
         )
     }
-}
+};
 
-export default QuizQuestion
+export default QuizQuestion;
